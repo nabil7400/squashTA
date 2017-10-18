@@ -1,10 +1,10 @@
 SETUP :
-# DELETE_ALL_DBUNIT datasets/cleaning-dataset.xml FROM petshop_db
-# INSERT_DBUNIT datasets/initial-dataset.xml INTO petshop_db
+//# DELETE_ALL_DBUNIT datasets/cleaning-dataset.xml FROM petshop_db
+//# INSERT_DBUNIT datasets/initial-dataset.xml INTO petshop_db
 
 TEST :
-# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS org.squashtest.tutorial.Selenium.PetStoreSeleniumTest
-# ASSERT_DBUNIT TARGET petshop_db CONTAINS datasets/verification-dataset.xml
+//# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS org.squashtest.tutorial.Selenium.PetStoreSeleniumTest
+//# ASSERT_DBUNIT TARGET petshop_db CONTAINS datasets/verification-dataset.xml
 
 TEARDOWN :
-# DELETE_ALL_DBUNIT datasets/cleaning-dataset.xml FROM petshop_db
+//# DELETE_ALL_DBUNIT datasets/cleaning-dataset.xml FROM petshop_db
