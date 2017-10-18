@@ -15,15 +15,6 @@
 		<ta.framework.version>1.9.0-RELEASE</ta.framework.version>
 	</properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.squashtest.tutorial</groupId>
-			<artifactId>Selenium</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-	</dependencies>
-
 	<build>
 		<plugins>
 			<!-- Configuration of the Squash TA framework used by the project -->
