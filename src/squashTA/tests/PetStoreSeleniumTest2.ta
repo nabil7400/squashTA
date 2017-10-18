@@ -1,0 +1,9 @@
+SETUP :
+# DELETE_ALL_DBUNIT datasets/cleaning-dataset2.xml FROM petshop_db2
+# INSERT_DBUNIT datasets/initial-dataset2.xml INTO petshop_db2
+
+TEST :
+
+
+TEARDOWN :
+# DELETE_ALL_DBUNIT datasets/cleaning-dataset2.xml FROM petshop_db2

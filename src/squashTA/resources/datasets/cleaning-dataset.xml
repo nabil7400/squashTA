@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<ACCOUNT />
+	<SEQUENCE />	
+	<ORDERSTATUS />	
+	<SIGNON />
+	<CATEGORY />
+	<INVENTORY />	
+	<BANNERDATA />
+	<ORDERS />	
+	<LINEITEM />
+	<SUPPLIER />
+	<PROFILE />									
+	<PRODUCT />
+	<ITEM />
+</dataset>
